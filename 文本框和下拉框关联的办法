@@ -1,1 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T02:59:19.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" version="15.9.5" etag="3jOZU_4SVB3a4CQaKh4g" type="github"><diagram id="vgopvoFrmoJhP3Qh5NMK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-15T03:30:07.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="YTYrmD6sNnigv4ZpsfzS" version="15.9.5" type="github">
+  <diagram id="vgopvoFrmoJhP3Qh5NMK" name="Page-1">
+    <mxGraphModel dx="1185" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p-32uM5kj-PmuZvFKVRV-1" target="p-32uM5kj-PmuZvFKVRV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-1" value="文本框写完后，点击自动填充下拉框（注意：下拉框是不可选的，这样的目的是防止冲突）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-32uM5kj-PmuZvFKVRV-2" target="p-32uM5kj-PmuZvFKVRV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-2" value="文本框自动为不可写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p-32uM5kj-PmuZvFKVRV-4" target="p-32uM5kj-PmuZvFKVRV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-4" value="如果想要改写下拉框的话，那么就可以自主修改下，做到可以和设备编号对应" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p-32uM5kj-PmuZvFKVRV-6" target="p-32uM5kj-PmuZvFKVRV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-6" value="如果想要重写设备编号的话，那么文本框就自动恢复到可以写的状态，下拉框就自动恢复到初始状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-32uM5kj-PmuZvFKVRV-8" target="p-32uM5kj-PmuZvFKVRV-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="595" />
+              <mxPoint x="50" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-32uM5kj-PmuZvFKVRV-8" value="文本框为空了" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="400" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
