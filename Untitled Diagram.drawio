@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T05:17:33.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="2sTRxChRhL8CBtf5r38x" version="16.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-15T12:41:31.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="1hHMDeY1A12ma185ROaQ" version="16.2.7" type="github" pages="3">
   <diagram id="tpEEKbFOyvRHctgcMs59" name="Page-1">
-    <mxGraphModel dx="745" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,19 +165,19 @@
       <root>
         <mxCell id="balvxSR_qcMx5mzclrwr-0" />
         <mxCell id="balvxSR_qcMx5mzclrwr-1" parent="balvxSR_qcMx5mzclrwr-0" />
-        <mxCell id="balvxSR_qcMx5mzclrwr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="balvxSR_qcMx5mzclrwr-1" source="balvxSR_qcMx5mzclrwr-2" target="balvxSR_qcMx5mzclrwr-4">
+        <mxCell id="balvxSR_qcMx5mzclrwr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" parent="balvxSR_qcMx5mzclrwr-1" source="balvxSR_qcMx5mzclrwr-2" target="balvxSR_qcMx5mzclrwr-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-2" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="balvxSR_qcMx5mzclrwr-1">
+        <mxCell id="balvxSR_qcMx5mzclrwr-2" value="A" style="rounded=0;whiteSpace=wrap;html=1;" parent="balvxSR_qcMx5mzclrwr-1" vertex="1">
           <mxGeometry x="34" y="84" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-3" value="B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="balvxSR_qcMx5mzclrwr-1">
+        <mxCell id="balvxSR_qcMx5mzclrwr-3" value="B" style="rounded=0;whiteSpace=wrap;html=1;" parent="balvxSR_qcMx5mzclrwr-1" vertex="1">
           <mxGeometry x="675" y="80" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="balvxSR_qcMx5mzclrwr-1" source="balvxSR_qcMx5mzclrwr-4" target="balvxSR_qcMx5mzclrwr-3">
+        <mxCell id="balvxSR_qcMx5mzclrwr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="balvxSR_qcMx5mzclrwr-1" source="balvxSR_qcMx5mzclrwr-4" target="balvxSR_qcMx5mzclrwr-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="balvxSR_qcMx5mzclrwr-1" source="balvxSR_qcMx5mzclrwr-4" target="balvxSR_qcMx5mzclrwr-9">
+        <mxCell id="balvxSR_qcMx5mzclrwr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="balvxSR_qcMx5mzclrwr-1" source="balvxSR_qcMx5mzclrwr-4" target="balvxSR_qcMx5mzclrwr-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="535" y="180" />
@@ -186,28 +186,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-15" value="自动把A和B记录到数据库内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="balvxSR_qcMx5mzclrwr-14">
+        <mxCell id="balvxSR_qcMx5mzclrwr-15" value="自动把A和B记录到数据库内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="balvxSR_qcMx5mzclrwr-14" vertex="1" connectable="0">
           <mxGeometry x="-0.535" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-4" value="聊天" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="balvxSR_qcMx5mzclrwr-1">
+        <mxCell id="balvxSR_qcMx5mzclrwr-4" value="聊天" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="balvxSR_qcMx5mzclrwr-1" vertex="1">
           <mxGeometry x="445" y="67.5" width="180" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="balvxSR_qcMx5mzclrwr-1" source="balvxSR_qcMx5mzclrwr-7" target="balvxSR_qcMx5mzclrwr-9">
+        <mxCell id="balvxSR_qcMx5mzclrwr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="balvxSR_qcMx5mzclrwr-1" source="balvxSR_qcMx5mzclrwr-7" target="balvxSR_qcMx5mzclrwr-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-17" value="这样，C会根据redis/数据库判断A的对象是谁&lt;br&gt;，若不是自己的话，那么就会把C发的消息推送到企业微信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="balvxSR_qcMx5mzclrwr-16">
+        <mxCell id="balvxSR_qcMx5mzclrwr-17" value="这样，C会根据redis/数据库判断A的对象是谁&lt;br&gt;，若不是自己的话，那么就会把C发的消息推送到企业微信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="balvxSR_qcMx5mzclrwr-16" vertex="1" connectable="0">
           <mxGeometry x="-0.4408" y="3" relative="1" as="geometry">
             <mxPoint x="39" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-7" value="C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="balvxSR_qcMx5mzclrwr-1">
+        <mxCell id="balvxSR_qcMx5mzclrwr-7" value="C" style="rounded=0;whiteSpace=wrap;html=1;" parent="balvxSR_qcMx5mzclrwr-1" vertex="1">
           <mxGeometry x="34" y="270" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="balvxSR_qcMx5mzclrwr-9" value="发送对象记录" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="balvxSR_qcMx5mzclrwr-1">
+        <mxCell id="balvxSR_qcMx5mzclrwr-9" value="发送对象记录" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="balvxSR_qcMx5mzclrwr-1" vertex="1">
           <mxGeometry x="780" y="190" width="60" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Uo5XQ2YxdF00GG-Wvbgy" name="Page-3">
+    <mxGraphModel dx="925" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UQmYkocSIQb8EH9u8xdi-0" />
+        <mxCell id="UQmYkocSIQb8EH9u8xdi-1" parent="UQmYkocSIQb8EH9u8xdi-0" />
       </root>
     </mxGraphModel>
   </diagram>
