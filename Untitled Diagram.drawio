@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T14:22:55.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="nXQ0BrI3Mq_c07uqDnya" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-15T14:26:46.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="prsrSAwmupXbe4UtZ8rd" version="16.2.7" type="github" pages="4">
   <diagram id="tpEEKbFOyvRHctgcMs59" name="Page-1">
     <mxGraphModel dx="925" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,6 +326,51 @@
       <root>
         <mxCell id="-ImW7pbi6Zy4eAHo3UmK-0" />
         <mxCell id="-ImW7pbi6Zy4eAHo3UmK-1" parent="-ImW7pbi6Zy4eAHo3UmK-0" />
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-ImW7pbi6Zy4eAHo3UmK-1" source="-ImW7pbi6Zy4eAHo3UmK-2" target="-ImW7pbi6Zy4eAHo3UmK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-2" value="创建packet（这个表示为消息结构）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-ImW7pbi6Zy4eAHo3UmK-1">
+          <mxGeometry x="90" y="60" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-ImW7pbi6Zy4eAHo3UmK-1" source="-ImW7pbi6Zy4eAHo3UmK-3" target="-ImW7pbi6Zy4eAHo3UmK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-3" value="encode可以加密把packet转成bytebuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-ImW7pbi6Zy4eAHo3UmK-1">
+          <mxGeometry x="90" y="160" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-ImW7pbi6Zy4eAHo3UmK-1" source="-ImW7pbi6Zy4eAHo3UmK-5" target="-ImW7pbi6Zy4eAHo3UmK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-5" value="bytebuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-ImW7pbi6Zy4eAHo3UmK-1">
+          <mxGeometry x="90" y="250" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-ImW7pbi6Zy4eAHo3UmK-1" source="-ImW7pbi6Zy4eAHo3UmK-7" target="-ImW7pbi6Zy4eAHo3UmK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-7" value="tip.send" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-ImW7pbi6Zy4eAHo3UmK-1">
+          <mxGeometry x="90" y="340" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="-ImW7pbi6Zy4eAHo3UmK-1" source="-ImW7pbi6Zy4eAHo3UmK-9" target="-ImW7pbi6Zy4eAHo3UmK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-9" value="bytebuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-ImW7pbi6Zy4eAHo3UmK-1">
+          <mxGeometry x="520" y="340" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-ImW7pbi6Zy4eAHo3UmK-1" source="-ImW7pbi6Zy4eAHo3UmK-11" target="-ImW7pbi6Zy4eAHo3UmK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-11" value="decode 解密" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-ImW7pbi6Zy4eAHo3UmK-1">
+          <mxGeometry x="520" y="250" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-ImW7pbi6Zy4eAHo3UmK-1" source="-ImW7pbi6Zy4eAHo3UmK-12" target="-ImW7pbi6Zy4eAHo3UmK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-12" value="packet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-ImW7pbi6Zy4eAHo3UmK-1">
+          <mxGeometry x="520" y="160" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ImW7pbi6Zy4eAHo3UmK-15" value="对packet进行handler ，这样保证做到对packet进行消息处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-ImW7pbi6Zy4eAHo3UmK-1">
+          <mxGeometry x="520" y="60" width="270" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
