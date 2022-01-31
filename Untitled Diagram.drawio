@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-31T08:36:38.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="irXMfMrvQPPTqgfyLqP8" version="16.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-31T08:43:55.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="Rny8xtnzWEUDG8o3YWNE" version="16.5.2" type="github" pages="3">
   <diagram id="1JH5Lo2J-cD5T9GHqDmp" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,6 +132,32 @@
         </mxCell>
         <mxCell id="I65lFT3VIoFU3QpcJtAo-17" value="这个一步需要花一定的等待事件，这个需要花很久时间，这个并不太现实" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I65lFT3VIoFU3QpcJtAo-1">
           <mxGeometry x="260" y="330" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lrBIonyZC_zOVFPavrax" name="Page-3">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="6fQa0pYvqpOzq5PsHTnp-0" />
+        <mxCell id="6fQa0pYvqpOzq5PsHTnp-1" parent="6fQa0pYvqpOzq5PsHTnp-0" />
+        <mxCell id="6fQa0pYvqpOzq5PsHTnp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6fQa0pYvqpOzq5PsHTnp-1" source="6fQa0pYvqpOzq5PsHTnp-2" target="6fQa0pYvqpOzq5PsHTnp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6fQa0pYvqpOzq5PsHTnp-2" value="先把东西放进CompletableFuture，采用的是completableFuture.supply()，这样做到同步实例化future" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6fQa0pYvqpOzq5PsHTnp-1">
+          <mxGeometry x="260" y="70" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6fQa0pYvqpOzq5PsHTnp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6fQa0pYvqpOzq5PsHTnp-1" source="6fQa0pYvqpOzq5PsHTnp-3" target="6fQa0pYvqpOzq5PsHTnp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6fQa0pYvqpOzq5PsHTnp-3" value="List&amp;lt;CompletableFuture&lt;br&gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6fQa0pYvqpOzq5PsHTnp-1">
+          <mxGeometry x="265" y="220" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6fQa0pYvqpOzq5PsHTnp-5" value="先把thing放进completableFuture，然后把这些放进列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6fQa0pYvqpOzq5PsHTnp-1">
+          <mxGeometry x="395" y="140" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6fQa0pYvqpOzq5PsHTnp-6" value="实现completableFuture.get，做到显示这些值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6fQa0pYvqpOzq5PsHTnp-1">
+          <mxGeometry x="265" y="320" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
